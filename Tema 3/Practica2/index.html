@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El tiempo</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(205, 228, 255);
+        }
+
+        #cuadro-tiempo{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        article.provincia{
+            width: 200px;
+            background-color: aliceblue;
+            margin: 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El tiempo</h1>
+        <label>Tiempo actual en las siguientes provincias de España:</label>
+    </header>
+    <section id="cuadro-tiempo">
+    </section>
+    <section id="tiempo-redactado">
+        <input type="submit" id="today" value="Ver tiempo hoy Redactado"><br><br>
+        <input type="submit" id="tomorrow"  value="Ver tiempo mañana Redactado">
+    </section>
+    <script src="./tiempo.js">
+    </script>
+</body>
+</html>
